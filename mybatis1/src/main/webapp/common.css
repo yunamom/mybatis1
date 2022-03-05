@@ -1,0 +1,71 @@
+@charset "UTF-8";
+html {
+	background: #e1c9c9;
+}
+body {
+	font-family: gulim;
+	text-align: center;
+}
+wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+div.container {
+	width: 400px;
+	margin: 10px auto;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	color: white;
+}
+.right {
+	float: right;
+}
+
+.btn {
+	display: inline-block;
+	margin: 1rem 0; /* 위아래 , 양옆 */	
+	padding: 0.5rem 1rem;
+	border: 1px solid gray;
+	border-radius: 0.5em;
+	cursor: pointer;
+	background: linear-gradient(#fff, #ddd);
+	text-decoration: none;
+	color: black;
+}
+
+.btn:active {
+	-ms-transform: translateY(2px);
+	-webkit-transform: translateY(2px);
+	transform: translateY(2px);
+	background-color: #ccc;
+}
+
+table.list {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.list td,th {
+	padding: 0.8rem;
+	border: 1px solid gray;
+}
+
+table.list th {
+	background-color: rgba(255,255,255,0.6);
+}
+
+input {
+	width: 80%;
+	padding: 0.8rem;
+	border-radius: 0.5rem;
+	font-size: 16px;
+}
+
+select {
+	padding: 4px;
+}
