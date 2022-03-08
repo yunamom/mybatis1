@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>∙ 학과 정보 ∙</title>
 <link rel="stylesheet" type="text/css" href="/common.css" />
 </head>
 <body>

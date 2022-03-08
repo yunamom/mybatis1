@@ -7,6 +7,7 @@ public class Student {
 	String name;
 	int departmentId;
 	int year;
+	String departmentName; //Student 테이블에 없는 department 컬럼을 추가
 	
 
 	public int getId() {
@@ -47,5 +48,13 @@ public class Student {
 
 	public void setYear(int year) {
 		this.year = year;
+	}
+	
+	public String getDepartmentName() {
+		return departmentName;
+	}
+	
+	public void setDepartmentName(String departmentName) {
+		this.departmentName = departmentName;
 	}
 }
