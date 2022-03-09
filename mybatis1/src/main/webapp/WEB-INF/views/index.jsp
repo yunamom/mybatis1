@@ -15,7 +15,7 @@
 		<table class="list">
 			<tr>
 				<th><a href="department/list">학과목록</a></th>
-				<th><a href="form/edit2">학생목록</a></th>
+				<th><a href="student/list">학생목록</a></th>
 			</tr>
 		</table>
 </div>

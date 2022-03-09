@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="/common.css">
 </head>
 <body>
-
+<section>
 <div class="wrapper">
 <div class="container">
 	<form name="frm" method="post">
@@ -60,6 +60,6 @@
 	
 </div>
 </div>
-
+</section>
 </body>
 </html>
