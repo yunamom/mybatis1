@@ -17,6 +17,10 @@
 				<th><a href="department/list">학과목록</a></th>
 				<th><a href="student/list">학생목록</a></th>
 			</tr>
+			<tr>
+				<th><a href="register/list">수강목록</a></th>
+				<th><a href="student/list">학생목록</a></th>
+			</tr>
 		</table>
 </div>
 </div>

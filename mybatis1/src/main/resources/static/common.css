@@ -15,7 +15,7 @@ section {
 	align-items: center;
 }
 div.container {
-	width: 400px;
+	min-width: 400px;
 	margin: 10px auto;
 	overflow: auto;
 }
