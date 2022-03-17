@@ -13,7 +13,7 @@ import org.apache.ibatis.annotations.Update;
 import net.skhu.dto.Department;
 
 @Mapper
-@CacheNamespace(flushInterval=10000)
+@CacheNamespace(flushInterval=10000, size=2048)
 public interface DepartmentMapper {
 	
 	@Select("SELECT * FROM department")
